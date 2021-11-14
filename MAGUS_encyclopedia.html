@@ -1,10 +1,30 @@
 <html>
-	<body>
-		
-		<div id="menu" style="text-align:center;" height="10%"> 
-       			<a href="./encyclopedia/kepzettseg/kepzettseg_enc.html" target="cont"> Képzettségek</a> | <a href="./encyclopedia/magasmagia/magasmagia.html" target="cont"> Magasmágia</a> | fejlesztés alatt 
+	<head>
+		<link rel="stylesheet" href="MAGUS_encyclopedia.css">
+		<link rel="icon" href="./képek/favicon.png">
+	</head>
+	
+	<header>
+		<div id="menu" style="text-align:center;">
+			<img class="image" style="vertical-align:middle" src="./kepek/favicon.png" alt="">
+       			<a href="./encyclopedia/kepzettseg/kepzettseg_enc.html" target="submenu"> Képzettségek</a> | 
+       			<a href="./encyclopedia/magasmagia/magasmagia.html" target="submenu"> Magasmágia</a> | 
+       			fejlesztés alatt
+       			
+       			<img class="image2" style="vertical-align:middle;" src="./kepek/favicon.png" alt="">
     		</div>	
+	</header>
+	
+	<body>	
+	
+	    <nav class="submenu_div">
+			<iframe class="submenu_frame" name="submenu" frameborder="0" scrolling="yes" style="overflow: hidden; height: 100%; width: 15%; float: left; " height="100%" width="15%" align="left"></iframe>
+		</nav>
 		
-		<iframe name="cont" width="100%" height="90%" frameborder="0"></iframe>		
+		<div class="content_div">
+			<iframe class="content_frame" name="content" frameborder="0" scrolling="yes" style="overflow: hidden; height: 100%;width: 49%;" height="100%" width="49%" align="center"></iframe>
+		</div>
+
+
 	</body>
 </html>

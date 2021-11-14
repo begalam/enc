@@ -1,0 +1,32 @@
+
+
+html, body {
+   margin: 00%;
+   padding:0%;
+}
+header {
+	background-image: url(kepek/header.jpg);
+	}
+.image {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    margin-top: 0em;
+    margin-bottom: 0;
+
+}
+.image2 {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    margin-top: 0em;
+    margin-bottom: 0;
+}
+body {
+    background-image: url(kepek/paper4.jpg);
+    opacity: 100%;
+    fixed
+
+}
+
+
