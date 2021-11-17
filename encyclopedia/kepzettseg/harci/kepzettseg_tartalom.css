@@ -2,6 +2,13 @@
     box-sizing: border-box;
     margin: 0;
 }
+html {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+ }
 body{
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
@@ -22,7 +29,7 @@ body h3 {
     margin-bottom: 10px;
 }
 body p {
-    text-align: left;
+    text-align: justify;
     margin-left: 20;
     margin-right: 20;
     text-indent: 0.8em;
