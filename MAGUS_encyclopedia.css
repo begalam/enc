@@ -59,11 +59,17 @@ a {
 .nav-area ul ul li {
 	position: relative;
 	background-color: black;
+	
 }
 .nav-area ul ul ul {
 	top: 0;
 	left: 100%;
+	min-width: 200px;
 }
 .nav-area ul ul ul li:hover a {
-	background: rgba(220, 220, 220, 30%);
+	background:rgba(220, 220, 220, 30%);
 }
+.nav-area ul ul ul ul li:hover a {
+	background-color: black;
+}
+
