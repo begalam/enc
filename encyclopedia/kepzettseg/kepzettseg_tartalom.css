@@ -14,7 +14,7 @@ body{
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
     background-color:rgba(255, 255, 255, 50%);
-    margin-top: 70px;
+    margin-top: 10px;
     padding-bottom: 40px;
 }
 body::-webkit-scrollbar {
