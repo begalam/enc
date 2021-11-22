@@ -2,14 +2,16 @@
 <html lang="hu">
 <head>
 	<meta charset="UTF-8">
-	<title>Mágus enciklopédia</title>
-	<link href="MAGUS_encyclopedia.css" rel="stylesheet">
-	<link rel="icon" href="./kepek/favicon.png">
+	<title>M.A.G.U.S. enciklopédia</title>
+	<link href="./MAGUS_files/MAGUS_encyclopedia.css" rel="stylesheet">
+	<link rel="icon" href="./MAGUS_files/kepek/favicon.png">
 </head>
-	<nav id="menu" class="nav-area">
+
+
+	<nav id="menu" class="nav-area" style="height: ">
 		<ul>
 			<li>
-				<a href="./encyclopedia/kepzettseg/kepzettseg_enc.html" target="submenu">Képzettségek</a>
+				<a href="./MAGUS_files/encyclopedia/kepzettseg/kepzettseg_enc.html" target="submenu">Képzettségek</a>
 			</li>
 			<li>
 				<a href="#">11111</a>
@@ -41,7 +43,7 @@
 								<a href="#">Magasmágia</a>
 								<ul>
 									<li>
-										<a href="./encyclopedia/magasmagia/magasmagia.html" target="submenu">Őselemi Mágia</a>
+										<a href="./MAGUS_files/encyclopedia/magasmagia/magasmagia.html" target="submenu">Őselemi Mágia</a>
 									</li>
 									<li>
 										<a href="#">Természetes Anyagok Mágiája</a>
@@ -89,25 +91,28 @@
 				</ul>
 			</li>
 			<li>
-				<a href="./simple_kocka.html" target="popup" onclick="window.open('./simple_kocka.html','name','width=600,height=400')">Egyszerű Kocka</a>
+				<a href="./MAGUS_files/simple_kocka.html" target="popup" onclick="window.open('./simple_kocka.html','name','width=600,height=400')">Egyszerű Kocka</a>
 			</li>
 			<li>
-				<a href="./beiros_kocka.html" target="popup" onclick="window.open('./beiros_kocka.html','name','width=600,height=400')">Kocka fejlesztés alatt</a>
+				<a href="./MAGUS_files/beiros_kocka.html" target="popup" onclick="window.open('./beiros_kocka.html','name','width=600,height=400')">Kocka fejlesztés alatt</a>
 			</li>
 			<li>
-				<a href="./encyclopedia/TO DO/TO DO.html" target="submenu">TO DO</a>
+				<a href="./MAGUS_files/encyclopedia/TO DO/TO DO.html" target="submenu">TO DO</a>
 			</li>
 		</ul>
 	</nav>
 <body>
 	
-	<div class="submenu_div">
-		<iframe class="submenu_frame" name="submenu" frameborder="0" scrolling="yes" style="overflow: hidden; height: 915px; width: 15%; float: left; " height="100%" width="15%" align="left"></iframe>
+	<div class="page_content" style="height: 94.5%">
+		<iframe class="submenu_frame" name="submenu" frameborder="0" scrolling="yes" style="overflow: hidden; height: 100%; width: 15%; float: left; " height="100%" width="15%" align="left"></iframe>
+
+		<iframe class="content_frame" name="content" frameborder="0" scrolling="yes" style="overflow: hidden; height: 100%; width: 49%;" height="100%" width="49%" align="center"></iframe>
+		
+		<iframe class="right_banner_frame" name="right_banner" frameborder="0" scrolling="yes" style="overflow: hidden; height: 100%;width: 36%;" height="100%" width="36%" align="right"></iframe>
 	</div>
 
-	<div class="content_div">
-		<iframe class="content_frame" name="content" frameborder="0" scrolling="yes" style="overflow: hidden; height: 915px; width: 49%;" height="100%" width="49%" align="center"></iframe>
-	</div>
 </body>
+
+
 
 </html>

@@ -1,0 +1,21 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		
+		<p>ez egyenlőre csak egy tekdemó arról, hogy ki bírom olvasni javascriptel a képletből külön a számokat amik kellenek a dobás információhoz...</p>
+	
+		<input type="button" id="bt" value="Click it!" onclick="getNumFromStr()" />
+	</body>
+
+	<script>
+		function getNumFromStr () {
+		    
+		    var tName = prompt ("ird be a dobokocka 'kepletet'!", "pl.: 3d6+2");
+		    
+		    alert(tName.match(/\d+/g));
+		}
+    
+	</script>
+</html>
