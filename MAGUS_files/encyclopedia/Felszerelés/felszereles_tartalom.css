@@ -23,6 +23,7 @@ body::-webkit-scrollbar {
 
 body h2 {
     text-align: center;
+    margin-bottom: 14px;
 }
 body h3 {
     text-align: center;
