@@ -49,7 +49,9 @@ table {
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-   
+}
+.torjellegu {
+    width: 80%
 }
 
 h4 {
@@ -61,6 +63,5 @@ body img {
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-  
+    margin-right: auto; 
 }
