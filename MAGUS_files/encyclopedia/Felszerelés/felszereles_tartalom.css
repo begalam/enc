@@ -40,3 +40,27 @@ body div {
     padding-left: 10;
 }
 
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    color: black;
+    border: 1.4px solid black;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+h4 {
+    text-align: center;
+}
+body img {
+    margin-top: 50;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
