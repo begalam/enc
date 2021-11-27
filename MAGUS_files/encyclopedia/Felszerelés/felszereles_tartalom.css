@@ -40,6 +40,20 @@ body div {
     padding-left: 10;
 }
 
+h4 {
+    text-align: center;
+}
+body img {
+    margin-top: 50;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
 table {
     border-collapse: collapse;
     width: 50%;
@@ -53,18 +67,18 @@ table {
 .torjellegu {
     width: 80%
 }
-
-h4 {
-    text-align: center;
-}
-body img {
-    margin-top: 50;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
 .torjellegu tr:nth-child(even) {
     background-color: rgba(200, 200, 200, 50%)
-  }
+}
+.buzoganyok {
+    width: 80%
+}
+.buzoganyok tr:nth-child(even) {
+    background-color: rgba(200, 200, 200, 50%)
+}
+.csatabardok {
+    width: 80%
+}
+.csatabardok tr:nth-child(even) {
+    background-color: rgba(200, 200, 200, 50%)
+}
